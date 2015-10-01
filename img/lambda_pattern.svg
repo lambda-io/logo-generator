@@ -58,5 +58,5 @@
 	<polygon id="XMLID_48_" class="st7" points="108.4,579.5 105.5,606 108.4,606 	"/>
 	<polygon id="XMLID_49_" class="st7" points="167,707.9 170.1,707.9 167,735.6 	"/>
 </g>
-<text id="lambdaText" transform="translate(600, 530)" style="font-family: 'Comfortaa'; font-size: 380px; fill: #48aaa3">Fortaleza</text>
+<text id="cityName" transform="translate(600, 530)" style="font-family: 'Comfortaa'; font-size: 380px; text-transform: capitalize; fill: #48aaa3;">Fortaleza</text>
 </svg>
