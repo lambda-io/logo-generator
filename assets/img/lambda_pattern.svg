@@ -8,6 +8,7 @@
 		.st2{fill:#80B8C3;}
 		.st3{fill:#49B7A6;}
 		.st4{opacity:0.37;}
+		#cityName{font-family: 'Comfortaa'; font-size: 48px; text-transform: capitalize; fill: #80B8C3;}
 	</style>
 	<defs xmlns="http://www.w3.org/2000/svg">
 		<link xmlns="http://www.w3.org/1999/xhtml" href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css"/>
@@ -34,5 +35,5 @@
 	<polygon id="XMLID_46_" class="st4" points="52.6,97.3 52.2,91.5 57,91.6 52.6,91.6 52.6,97.3 "/>
 	<polygon id="XMLID_48_" class="st4" points="3.9,76.2 3.4,79.9 3.9,79.9 "/>
 	<polygon id="XMLID_49_" class="st4" points="12.1,94.1 12.5,94.1 12.1,98 "/>
-	<text id="cityName" transform="translate(80, 66)" style="font-family: 'Comfortaa'; font-size: 48px; text-transform: capitalize; fill: #80B8C3;">Fortaleza</text>
+	<text id="cityName" transform="translate(80, 66)">Fortaleza</text>
 </svg>

@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa'), local('Comfortaa-Regular'), url(../assets/fonts/comfortaa.woff2) format('woff2');
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	font-size: 22px;
+	font-family: 'Comfortaa', sans-serif;
+	text-align: center;
+	color: #80B8C3;
+}
+
+.holder {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.__ {
+	display: table;
+	margin: 20px auto;
+}
+
+input, button {
+	border: 1px solid #80B8C3;
+	-webkit-border-radius: 2px;
+		 -moz-border-radius: 2px;
+			-ms-border-radius: 2px;
+			 -o-border-radius: 2px;
+					border-radius: 2px;
+
+	-webkit-transition: all 0.2s ease-in-out;
+		 -moz-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			 -o-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+
+}
+
+input {
+	padding: 10px;
+}
+
+button {
+	background: #80B8C3;
+	color: #FFF;
+	padding: 9px 15px;
+}
+
+input:focus, button:hover, button:focus {
+	border-color: #4f99a7;
+}
+
+button:hover, button:focus {
+	background-color: #4f99a7;
+	cursor: pointer;
+}
