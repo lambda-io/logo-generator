@@ -7,9 +7,9 @@
 		var	saveBtn = document.getElementById('saveBtn');
 		var	cityInput = document.getElementById('cityInput');
 		var	pattern = document.getElementById('lambda_pattern');
+		var cityName = pattern.getElementById('cityName');
 
 		var changeLocation = function(locationName) {
-			var cityName = pattern.getElementById('cityName');
 			cityName.textContent = locationName;
 			setWidth();
 		};
@@ -20,9 +20,9 @@
 			pattern.width.baseVal.value = newWidth;
 		};
 
-		cityInput.onchange = function(e) {
+		cityInput.onchange = function() {
 			changeLocation(this.value);
-		}
+		};
 
 		cityInput.onkeyup = cityInput.onkeydown = cityInput.onchange;
 
@@ -41,4 +41,4 @@
 
 		saveBtn.addEventListener('click', saveImage);
 	});
-}())
+}());
